@@ -1,0 +1,26 @@
+# Tests that a graph can be created and 5 nodes
+# and 4 edges can be made from diff nodes. Further
+# prints all children of all nodes.
+
+# Create a graph
+created graph graph1
+
+# Add 5 nodes
+added node n1 to graph1
+added node n2 to graph1
+added node n3 to graph1
+added node n4 to graph1
+added node n5 to graph1
+
+#Add 4 edges
+added edge e1 from n1 to n2 in graph1
+added edge e2 from n2 to n3 in graph1
+added edge e3 from n3 to n4 in graph1
+added edge e4 from n4 to n5 in graph1
+
+# Print the outgoing edges from each node
+the children of n1 in graph1 are: n2(e1)
+the children of n2 in graph1 are: n3(e2)
+the children of n3 in graph1 are: n4(e3)
+the children of n4 in graph1 are: n5(e4)
+the children of n5 in graph1 are:

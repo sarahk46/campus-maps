@@ -1,0 +1,11 @@
+# Tests that a graph can be created and that five unique nodes can be added to it.
+
+# Create a graph
+CreateGraph graph1
+
+# Add five unique nodes
+AddNode graph1 n1
+AddNode graph1 n2
+AddNode graph1 n3
+AddNode graph1 n4
+AddNode graph1 n5

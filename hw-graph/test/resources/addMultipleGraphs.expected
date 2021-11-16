@@ -1,0 +1,8 @@
+# Tests that five graphs can be created.
+
+# Create five graphs
+created graph graph1
+created graph graph2
+created graph graph3
+created graph graph4
+created graph graph5

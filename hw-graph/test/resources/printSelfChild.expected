@@ -1,0 +1,14 @@
+# Tests that a graph along with a node and an edge to itself can be created.
+# Further tests if such edge is printed.
+
+# Create a graph
+created graph graph1
+
+# Add a node
+added node n1 to graph1
+
+# Add an edge
+added edge e1 from n1 to n1 in graph1
+
+# Print the outgoing edges from n1
+the children of n1 in graph1 are: n1(e1)

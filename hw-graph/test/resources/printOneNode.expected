@@ -1,0 +1,11 @@
+# Tests that a graph can be created, a node can be added to it,
+# and it is possible to list the added node.
+
+# Create a graph
+created graph graph1
+
+# Add one node
+added node n1 to graph1
+
+# Print the node in the graph
+graph1 contains: n1

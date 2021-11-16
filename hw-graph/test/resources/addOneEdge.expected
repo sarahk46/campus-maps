@@ -1,0 +1,13 @@
+# Tests that a graph can be created and a pair of nodes
+# and an edge between them can be added.
+
+# Create a graph
+created graph graph1
+
+# Add two nodes
+added node n1 to graph1
+added node n2 to graph1
+
+#Add one edge
+added edge e1 from n1 to n2 in graph1
+

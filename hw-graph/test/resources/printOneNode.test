@@ -1,0 +1,11 @@
+# Tests that a graph can be created, a node can be added to it,
+# and it is possible to list the added node.
+
+# Create a graph
+CreateGraph graph1
+
+# Add one node
+AddNode graph1 n1
+
+# Print the node in the graph
+ListNodes graph1

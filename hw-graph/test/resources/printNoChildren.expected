@@ -1,0 +1,11 @@
+# Tests that a graph can be created along with one node, and
+# no edge can be printed out.
+
+# Create a graph
+created graph graph1
+
+# Add a node
+added node n1 to graph1
+
+# Print the outgoing edges from n1
+the children of n1 in graph1 are:

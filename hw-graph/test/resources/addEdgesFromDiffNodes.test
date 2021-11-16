@@ -1,0 +1,18 @@
+# Tests that a graph can be created and 5 nodes
+# and 4 edges can be made from diff nodes.
+
+# Create a graph
+CreateGraph graph1
+
+# Add 5 nodes
+AddNode graph1 n1
+AddNode graph1 n2
+AddNode graph1 n3
+AddNode graph1 n4
+AddNode graph1 n5
+
+#Add 4 edges
+AddEdge graph1 n1 n2 e1
+AddEdge graph1 n2 n3 e2
+AddEdge graph1 n3 n4 e3
+AddEdge graph1 n4 n5 e4

@@ -1,0 +1,15 @@
+# Tests that a graph can be created, five unique nodes can be added to it,
+# and it is possible to list all added nodes.
+
+# Create a graph
+created graph graph1
+
+# Add five unique nodes
+added node n1 to graph1
+added node n2 to graph1
+added node n3 to graph1
+added node n4 to graph1
+added node n5 to graph1
+
+# Print the nodes in the graph
+graph1 contains: n1 n2 n3 n4 n5

@@ -1,0 +1,7 @@
+# Tests that a graph can be created and that a node can be added to it.
+
+# Create a graph
+created graph graph1
+
+# Add one node
+added node n1 to graph1

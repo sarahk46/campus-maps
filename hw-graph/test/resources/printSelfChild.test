@@ -1,0 +1,14 @@
+# Tests that a graph along with a node and an edge to itself can be created.
+# Further tests if such edge is printed.
+
+# Create a graph
+CreateGraph graph1
+
+# Add a node
+AddNode graph1 n1
+
+# Add an edge
+AddEdge graph1 n1 n1 e1
+
+# Print the outgoing edges from n1
+ListChildren graph1 n1

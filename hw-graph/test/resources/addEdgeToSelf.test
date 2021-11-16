@@ -1,0 +1,10 @@
+# Tests that a graph along with a node and an edge to itself can be created.
+
+# Create a graph
+CreateGraph graph1
+
+# Add one node
+AddNode graph1 n1
+
+# Add one edge
+AddEdge graph1 n1 n1 e1

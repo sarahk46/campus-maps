@@ -1,0 +1,10 @@
+# Tests that a graph along with a node and an edge to itself can be created.
+
+# Create a graph
+created graph graph1
+
+# Add one node
+added node n1 to graph1
+
+# Add one edge
+added edge e1 from n1 to n1 in graph1
