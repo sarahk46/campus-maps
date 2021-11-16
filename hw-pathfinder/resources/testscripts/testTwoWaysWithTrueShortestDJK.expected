@@ -1,0 +1,24 @@
+# Find a path with Dijkstra's algorithm when
+# there are multiple edges and two paths to explore.
+# Checks that regardless of ordering of the referred nodes,
+# the in-between edges and final total cost are the same.
+
+created graph simpleGraph
+
+added node A to simpleGraph
+added node B to simpleGraph
+added node C to simpleGraph
+
+added edge 10.000 from A to B in simpleGraph
+added edge 10.000 from B to A in simpleGraph
+added edge 11.000 from A to C in simpleGraph
+added edge 11.000 from C to A in simpleGraph
+added edge 2.000 from B to C in simpleGraph
+added edge 2.000 from C to B in simpleGraph
+
+path from A to C:
+A to C with weight 11.000
+total cost: 11.000
+path from C to A:
+C to A with weight 11.000
+total cost: 11.000

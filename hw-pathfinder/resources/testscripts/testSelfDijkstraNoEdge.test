@@ -1,0 +1,8 @@
+# Find a path with Dijkstra's algorithm between
+# one node to itself where there is no edge.
+
+CreateGraph simpleGraph
+
+AddNode simpleGraph A
+
+FindPath simpleGraph A A

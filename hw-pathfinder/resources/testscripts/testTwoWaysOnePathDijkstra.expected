@@ -1,0 +1,18 @@
+# Find a path with Dijkstra's algorithm when
+# only one path exists for the two nodes, but it goes both ways.
+# Checks for this two-way property by changing the ordering of arguments as well.
+
+created graph simpleGraph
+
+added node A to simpleGraph
+added node B to simpleGraph
+
+added edge 10.000 from A to B in simpleGraph
+added edge 10.000 from B to A in simpleGraph
+
+path from A to B:
+A to B with weight 10.000
+total cost: 10.000
+path from B to A:
+B to A with weight 10.000
+total cost: 10.000

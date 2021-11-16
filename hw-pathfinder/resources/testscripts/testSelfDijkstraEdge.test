@@ -1,0 +1,11 @@
+# Find a path with Dijkstra's algorithm between
+# one node to itself where there is an edge.
+# Tests that this holds even when there is a weighted edge.
+
+CreateGraph simpleGraph
+
+AddNode simpleGraph A
+
+AddEdge simpleGraph A A 10.0
+
+FindPath simpleGraph A A

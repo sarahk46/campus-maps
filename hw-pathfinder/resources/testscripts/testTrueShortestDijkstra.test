@@ -1,0 +1,15 @@
+# Find a path with Dijkstra's algorithm when
+# there are multiple edges and two paths to explore.
+
+CreateGraph simpleGraph
+
+AddNode simpleGraph A
+AddNode simpleGraph B
+AddNode simpleGraph C
+
+AddEdge simpleGraph A B 10.0
+AddEdge simpleGraph A C 11.0
+AddEdge simpleGraph B C 2.0
+
+FindPath simpleGraph A C
+
